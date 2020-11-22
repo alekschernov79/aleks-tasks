@@ -23,7 +23,7 @@ var str = arrString();
 function newStr(str) {
     var res = ' ';
     for (var item of str) {
-        res += `${item}` ;
+        res += `${item} ` ;
     }
     return res;
 }
